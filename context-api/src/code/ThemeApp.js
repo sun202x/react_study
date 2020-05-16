@@ -37,9 +37,6 @@ class ThemeApp extends React.Component {
         <ThemeContext.Provider value={this.state.theme}>
           <Toolbar changeTheme={this.toggleTheme} />
         </ThemeContext.Provider>
-        {/* <Section>
-          <ThemedButton />
-        </Section> */}
       </>
     );
   }
