@@ -31,9 +31,7 @@ function App() {
     const moveExample = (index) => setCurrentIndex(Math.max(Math.min(index, examples.length - 1), 0));
 
     useEffect(() => {
-        import(`./code/${examples[currentIndex]}`).then((module) => {
-            setComponent({ comp: module.default });
-        });
+        import(`./code/${examples[currentIndex]}`).then((module) => setComponent({ comp: module.default }));
     }, [currentIndex]);
 
     return (
