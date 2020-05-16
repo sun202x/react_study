@@ -15,7 +15,8 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 // import Code1 from './code/3-70.js';
 // import Code1 from './code/3-71.js';
 // import Code1 from './code/3-72.js';
-import Code1 from './code/3-73.js';
+// import Code1 from './code/3-73.js';
+import Code1 from './code/ThemeApp.js';
 
 function App() {
   return (
