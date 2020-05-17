@@ -19,6 +19,9 @@ function App() {
         "3-72",
         "3-73",
         "ThemeApp",
+        "ListAndKey",
+        "ToDoListByIndex",
+        "ToDoListById",
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -37,7 +40,7 @@ function App() {
     return (
         <div style={{ width: '1000px', margin: '0 auto' }}>
             <h3>실전 리액트 프로그래밍</h3>
-            <div style={{ padding: 20, border: '5px solid gray', margin: '0 auto', height: '600px' }}>
+            <div style={{ padding: 20, border: '5px solid gray', margin: '0 auto', height: '600px', overflowY: 'auto' }}>
                 <div style={{ borderBottom: '1px solid gray', marginBottom: 20 }}>
                     예제 코드({examples[currentIndex]}) 실행결과
                 </div>
