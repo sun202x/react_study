@@ -5,6 +5,12 @@ function App() {
         "4-31",
         "4-35",
         "4-38",
+        "4-39",
+        "4-41",
+        "4-43",
+        "4-44",
+        "4-45",
+        "4-46",
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);

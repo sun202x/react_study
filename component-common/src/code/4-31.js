@@ -1,14 +1,14 @@
 import React, { useState, Component } from 'react';
 
 // 고차 컴포넌트
-function withMountEvent(InputComopnent, componentName) {
+function withMountEvent(InputComponent, componentName) {
     return class OutputComponent extends Component {
         componentDidMount() {
             sendMountEvent(componentName);
         }
 
         render() {
-            return <InputComopnent {...this.props} />;
+            return <InputComponent {...this.props} />;
         }
     };
 }
